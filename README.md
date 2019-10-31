@@ -30,13 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    `A:` `.forEach` would allow you to separate different items from a string, while `.map` would allow you to modify those items from the strings.
+
 2. What is the difference between a function and a method?
+
+    `A:` Functions can belong to almost anything while methods can only belong to a class.
 
 3. What is closure?
 
+    `A:` Closure's give you the ability to access an outer function's scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+    `A:`  1(Window): Basically the default principle that if given no rules, will be the active. Unless strict mode is active which will return                      undefined.
+
+    2(implicit): Implicit Binding: this principle only applies to methods with objects and is the one used in most situations. 
+
+    3(New): Creates a new object and uses the 'new' keyword to guide towards it
+
+    4(Explicit): Allows you to specifically and immediately invoke a function by choosing what the 'this' keyword is.
+
 5. Why do we need super() in an extended class?
+
+    `A:` We need it because `super()` is what calls on the parent constructor and allows us to call functions.
 
 ## Project Set up
 
